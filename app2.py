@@ -17,7 +17,9 @@ def projects():
 def about():
     return 'The about page'
 
-
+@app.route('/help')
+def help():
+    return 'The help page'
 
 
 
